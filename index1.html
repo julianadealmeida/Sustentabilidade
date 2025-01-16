@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra seu potencial de Economia Energética</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="widget-container">
+        <h3>Descubra seu potencial de Economia Energética implementando soluções em IA</h3>
+        <label for="consumo">Consumo Médio Mensal (kWh):</label>
+        <input type="number" id="consumo" placeholder="Ex.: 500">
+
+        <label for="tipo">Tipo de Estabelecimento:</label>
+        <select id="tipo">
+            <option value="residencial">Residencial</option>
+            <option value="comercial">Comercial</option>
+            <option value="industrial">Industrial</option>
+        </select>
+
+        <label for="fonte">Fonte Principal de Energia:</label>
+        <select id="fonte">
+            <option value="convencional">Geração Convencional</option>
+            <option value="renovavel">Renovável</option>
+            <option value="mista">Mista</option>
+        </select>
+
+        <button onclick="calcular()">Calcular Economia</button>
+
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
